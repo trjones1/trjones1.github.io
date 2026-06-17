@@ -1,623 +1,378 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Ingest In Love</title>
-  <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Ingest in Love. Organic Placenta Ecapsulation services for the DFW area">
-  <meta name="keywords" content="placenta encapsulation, DFW placenta encapsulation" />
-  
-  <meta name="author" content="Jones Morgan">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
-
-  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-  <link rel="stylesheet" href=" style.css">
-
-  <!-- Google verification -->
-  
-
-  <!-- Bing Verification -->
-  
-
-  <!-- Custom Fonts -->
-  <link rel="stylesheet" href=" css/font-awesome/css/all.min.css">
-  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tramel Jones — Engineering Leader, Full Stack Builder, AI Creator. Enterprise commerce by day, ambitious products by night.">
+  <meta name="author" content="Tramel Jones">
+  <title>Tramel Jones — Engineering Leader & AI Creator</title>
+  <link rel="canonical" href="https://trjones1.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="gradient-orb gradient-orb--1" aria-hidden="true"></div>
+  <div class="gradient-orb gradient-orb--2" aria-hidden="true"></div>
 
-
-<body id="page-top" class="index">
-  <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo">TJ<span class="nav__logo-dot">.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
       </button>
-      <a class="navbar-brand" href="#page-top">Ingest In Love</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="#page-top"></a>
-        </li>
-        <li class="page-scroll">
-          <a href="#portfolio">Services</a>
-        </li>
-        <li class="page-scroll">
-          <a href="#about">About</a>
-        </li>
-        <li class="page-scroll">
-          <a href="#contact">Contact</a>
-        </li>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#github">GitHub</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav__cta">Let's Talk</a></li>
       </ul>
     </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container-fluid -->
-</nav>
+  </nav>
 
-  <!-- Header -->
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <img class="img-responsive" src="img/logo.jpg" alt="profile-pic" />
-        <div class="intro-text">
-          <span class="name">Ingest In Love</span>
-          <hr class="star-light" />
-          <span class="skills">Organic Placenta Ecapsulation  - Organic Tincture</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-  <!-- Portfolio Grid Section -->
-<section id="portfolio">
-  <div class="container portfolio-flex-grid">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Services</h2>
-        <hr class="star-primary">
-      </div>
-    </div>
-    <div class="portfolio-flex-row">
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal">Chicago, IL</p>
+          <h1 class="hero__title reveal">
+            Tramel Jones
+          </h1>
+          <div class="hero__roles reveal">
+            <span class="hero__role" id="roleText">Engineering Leader.</span>
           </div>
-          <img src="img/portfolio/cabin.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/cake.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-3" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/circus.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/game.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/submarine.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/safe.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
-  <!-- About Section -->
-<section class="success" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>About</h2>
-        <hr class="star-light">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-lg-offset-2">
-        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
-          source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
-          customization.</p>
-      </div>
-      <div class="col-lg-4">
-        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or
-          a graphic artist looking to share your projects, this template is the perfect starting point! </p>
-      </div>
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <a href="https://github.com/jeromelachaud/freelancer-theme" class="btn btn-lg btn-outline">
-          <i class="fa fa-download"></i> Download Theme
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-  
-  <!-- Contact Section -->
-<section id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Contact Me</h2>
-        <hr class="star-primary">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <form action="//formspree.io/morgan.jones1726@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
-          <div class="row control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label for="name">Name</label>
-              <input type="text" name="name" class="form-control" placeholder="Name" id="name" required
-                data-validation-required-message="Please enter your name.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="row control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label for="email">Email Address</label>
-              <input type="email" name="_replyto" class="form-control" placeholder="Email Address" id="email" required
-                data-validation-required-message="Please enter your email address.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div>
-            <input type="hidden" name="_subject" value="New submission!">
-            <input type="text" name="_gotcha" style="display:none" />
-          </div>
-          <div class="row control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label for="message">Message</label>
-              <textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required
-                data-validation-required-message="Please enter a message."></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <br>
-          <div id="success"></div>
-          <div class="row">
-            <div class="form-group col-xs-12">
-              <button type="submit" class="btn btn-success btn-lg">Send</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-  
-
-  <!-- Footer -->
-<footer class="text-center">
-  <div class="footer-above">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col col-md-4">
-          <h3>Location</h3>
-          <p>
-            
-            DFW Area <br>
-            
+          <p class="hero__tagline reveal">
+            I build scalable commerce platforms, lead engineering teams, and create AI-powered experiences that blend technology with personality.
           </p>
+          <p class="hero__sub reveal">
+            By day, I manage application development teams delivering enterprise commerce solutions.<br>
+            By night, I build things that shouldn't exist yet.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="resume/" class="btn btn--ghost" target="_blank" rel="noopener">Download Resume</a>
+            <a href="https://github.com/trjones1" class="btn btn--icon" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.395-.135-.345-.72-1.395-1.23-1.665-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/trjones1" class="btn btn--icon" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.126 0 2.063 2.063 0 01-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
         </div>
-        <div class="footer-col col-md-4">
-          <h3>Around the Web</h3>
-          <ul class="list-inline">
-            
-            <li>
-              <a href="http://twitter.com/jekyllrb" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-twitter"></i></a>
-            </li>
-            
-            <li>
-              <a href="" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-facebook"></i></a>
-            </li>
-            
-            <li>
-              <a href="http://stackoverflow.com/questions/tagged/jekyll" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-stack-overflow"></i></a>
-            </li>
-            
-            <li>
-              <a href="http://bitbucket.org/jekyll" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-bitbucket"></i></a>
-            </li>
-            
-            <li>
-              <a href="http://github.com/jekyll" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-github"></i></a>
-            </li>
-            
-          </ul>
-        </div>
-        <div class="footer-col col-md-4">
-          <h3>Sister Services</h3>
-          <p>Eve the Doula</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-below">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          Copyright &copy; Ingest In Love 2023
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll visible-xs visible-sm">
-  <a class="btn btn-primary" href="#page-top">
-    <i class="fa fa-chevron-up"></i>
-  </a>
-</div>
-
-  <!-- Portfolio Modals -->
-
-<div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 1</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+        <div class="hero__visual reveal">
+          <div class="hero__card">
+            <div class="hero__card-glow"></div>
+            <img src="img/profile.png" alt="Tramel Jones" class="hero__avatar" width="200" height="200">
+            <div class="hero__stats">
+              <div class="hero__stat">
+                <span class="hero__stat-value" data-count="10">0</span><span class="hero__stat-suffix">+</span>
+                <span class="hero__stat-label">Years Experience</span>
+              </div>
+              <div class="hero__stat">
+                <span class="hero__stat-value" data-count="3">0</span>
+                <span class="hero__stat-label">AI Products Shipped</span>
+              </div>
+              <div class="hero__stat">
+                <span class="hero__stat-value" data-count="2">0</span>
+                <span class="hero__stat-label">Teams Led</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+      <div class="hero__scroll">
+        <a href="#stack" aria-label="Scroll down">
+          <span class="hero__scroll-line"></span>
+        </a>
+      </div>
+    </section>
 
-<div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
+    <!-- Animated Tech Stack -->
+    <section class="stack" id="stack">
+      <div class="section-header container reveal">
+        <span class="section-label">Tech Stack</span>
+        <h2>Tools I build with</h2>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track" id="marqueeTrack1">
+          <span>TypeScript</span><span>React</span><span>Next.js</span><span>.NET Core</span><span>Azure</span><span>OpenAI</span><span>Supabase</span><span>Stripe</span><span>Terraform</span><span>Sitecore XM Cloud</span><span>CommerceTools</span><span>ElevenLabs</span>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 2</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+      <div class="marquee marquee--reverse" aria-hidden="true">
+        <div class="marquee__track" id="marqueeTrack2">
+          <span>Node.js</span><span>Python</span><span>SQL Server</span><span>Docker</span><span>Vercel</span><span>Expo</span><span>Tailwind</span><span>Prompt Engineering</span><span>Vector Memory</span><span>REST APIs</span><span>Azure Functions</span><span>LLM Integrations</span>
+        </div>
+      </div>
+      <div class="stack__grid container reveal">
+        <div class="stack__category">
+          <h3>Languages</h3>
+          <div class="stack__tags">
+            <span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">C#</span><span class="tag">VB.NET</span><span class="tag">SQL</span><span class="tag">Python</span>
+          </div>
+        </div>
+        <div class="stack__category">
+          <h3>Frontend</h3>
+          <div class="stack__tags">
+            <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">Tailwind</span><span class="tag">Expo</span>
+          </div>
+        </div>
+        <div class="stack__category">
+          <h3>Backend</h3>
+          <div class="stack__tags">
+            <span class="tag">.NET Core</span><span class="tag">Node.js</span><span class="tag">Azure Functions</span><span class="tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="stack__category">
+          <h3>Cloud</h3>
+          <div class="stack__tags">
+            <span class="tag">Azure</span><span class="tag">Vercel</span><span class="tag">Docker</span><span class="tag">Terraform</span>
+          </div>
+        </div>
+        <div class="stack__category stack__category--wide">
+          <h3>AI</h3>
+          <div class="stack__tags">
+            <span class="tag tag--accent">OpenAI</span><span class="tag tag--accent">ElevenLabs</span><span class="tag tag--accent">Prompt Engineering</span><span class="tag tag--accent">LLM Integrations</span><span class="tag tag--accent">Vector Memory Systems</span>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </section>
 
-<div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
+    <!-- Experience Timeline -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Career</span>
+          <h2>Where I've led & built</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3>Manager, Application Development</h3>
+                  <p class="timeline__company">ISC2</p>
+                </div>
+                <span class="timeline__date">2024 – Present</span>
+              </div>
+              <p class="timeline__summary">Lead multiple engineering teams responsible for enterprise commerce platforms and customer experiences.</p>
+              <ul class="timeline__highlights">
+                <li>Lead developers across frontend, backend, QA and DevOps</li>
+                <li>Manage Sitecore XM Cloud + CommerceTools ecosystem</li>
+                <li>Oversee Azure Function Apps and cloud integrations</li>
+                <li>Introduced sprint reporting and executive dashboards</li>
+                <li>Drove performance improvements and cost optimization initiatives</li>
+                <li>Coordinated production releases across dev, QA and production environments</li>
+              </ul>
+              <div class="timeline__stack">
+                <span>Sitecore XM Cloud</span><span>CommerceTools</span><span>Next.js</span><span>TypeScript</span><span>Azure</span><span>.NET Core</span><span>SQL Server</span><span>Terraform</span>
+              </div>
+            </div>
+          </article>
+          <article class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3>Senior Software Engineer / Technical Lead</h3>
+                  <p class="timeline__company">Andra Group</p>
+                </div>
+                <span class="timeline__date">Prior Role</span>
+              </div>
+              <p class="timeline__summary">Built and modernized e-commerce and inventory systems.</p>
+              <ul class="timeline__highlights">
+                <li>Modernized legacy ASP systems into React + .NET applications</li>
+                <li>Developed Azure Function Apps</li>
+                <li>Built inventory and feed management systems</li>
+                <li>Managed Google Merchant and Feedonomics integrations</li>
+                <li>Automated business reporting and operations</li>
+              </ul>
+            </div>
+          </article>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 3</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Featured Work</span>
+          <h2>Things I've shipped</h2>
+          <p class="section-sub">AI products, commerce platforms, and experiments that shouldn't exist yet.</p>
+        </div>
+        <div class="projects__grid">
+          <article class="project-card reveal" data-project="chatverse">
+            <div class="project-card__visual project-card__visual--chatverse">
+              <div class="project-card__icon">💬</div>
+            </div>
+            <div class="project-card__body">
+              <h3>ChatVerse</h3>
+              <p>An AI companion platform with memory, voice, and personality.</p>
+              <ul class="project-card__features">
+                <li>Persistent memory</li>
+                <li>Voice conversations</li>
+                <li>Multiple AI characters</li>
+                <li>Subscription billing</li>
+              </ul>
+              <div class="project-card__tech">
+                <span>Next.js</span><span>Supabase</span><span>OpenAI</span><span>ElevenLabs</span><span>Stripe</span><span>Vercel</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="lexibot">
+            <div class="project-card__visual project-card__visual--lexibot">
+              <div class="project-card__icon">🤖</div>
+            </div>
+            <div class="project-card__body">
+              <h3>LexiBot</h3>
+              <p>A conversational AI character platform focused on immersive personality and memory.</p>
+              <ul class="project-card__features">
+                <li>User accounts & character switching</li>
+                <li>Voice synthesis</li>
+                <li>Long-term memory</li>
+                <li>Premium subscriptions</li>
+              </ul>
+              <div class="project-card__tech">
+                <span>Next.js</span><span>Supabase</span><span>OpenAI</span><span>Stripe</span>
+              </div>
+              <a href="https://github.com/trjones1/lexi-bot" class="project-card__link" target="_blank" rel="noopener">
+                View on GitHub →
+              </a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="hustle">
+            <div class="project-card__visual project-card__visual--hustle">
+              <div class="project-card__icon">🔥</div>
+            </div>
+            <div class="project-card__body">
+              <h3>Daily Hustle Coach</h3>
+              <p>A mobile AI coach designed to motivate users with daily goals and habit streaks.</p>
+              <ul class="project-card__features">
+                <li>Daily goals & habit streaks</li>
+                <li>AI encouragement</li>
+                <li>Push notifications</li>
+                <li>Progress tracking</li>
+              </ul>
+              <div class="project-card__tech">
+                <span>Expo</span><span>React Native</span><span>Supabase</span><span>GPT-4o</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GitHub Activity -->
+    <section class="github-section" id="github">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Open Source</span>
+          <h2>GitHub activity</h2>
+        </div>
+        <div class="github__grid">
+          <div class="github__profile reveal">
+            <div class="github__avatar-wrap">
+              <img id="githubAvatar" src="" alt="GitHub avatar" class="github__avatar" width="80" height="80">
+            </div>
+            <div class="github__info">
+              <h3 id="githubName">@trjones1</h3>
+              <p id="githubBio">Loading profile...</p>
+              <div class="github__meta">
+                <span><strong id="githubRepos">—</strong> repos</span>
+                <span><strong id="githubFollowers">—</strong> followers</span>
+              </div>
+              <a href="https://github.com/trjones1" class="btn btn--ghost btn--sm" target="_blank" rel="noopener">View Profile</a>
+            </div>
+          </div>
+          <div class="github__repos reveal" id="githubReposList">
+            <p class="github__loading">Loading repositories...</p>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </section>
 
-<div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container about__grid">
+        <div class="about__content reveal">
+          <div class="section-header section-header--left">
+            <span class="section-label">About Me</span>
+            <h2>Hey, I'm Tramel.</h2>
+          </div>
+          <p>I'm an Engineering Manager with over a decade of experience spanning enterprise commerce, cloud architecture, software engineering, and team leadership.</p>
+          <p>I've led teams responsible for large-scale e-commerce ecosystems using Sitecore XM Cloud, CommerceTools, Azure, Next.js, and .NET.</p>
+          <p>Outside of work, I love building. I create AI characters, experiment with generative interfaces, produce music, study Japanese, and ship weird ideas just to see if they work.</p>
+          <p class="about__belief"><em>I believe technology should feel human.</em></p>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 4</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
+        <div class="about__sidebar reveal">
+          <div class="about__card">
+            <h3>Leadership</h3>
+            <p>I enjoy helping engineers grow. My leadership style focuses on:</p>
+            <ul>
+              <li>Clear communication</li>
+              <li>Ownership</li>
+              <li>Psychological safety</li>
+              <li>Continuous improvement</li>
+              <li>Shipping quickly while maintaining quality</li>
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+          </div>
+          <div class="about__card">
+            <h3>Education</h3>
+            <p class="about__edu-school">Louisiana State University Shreveport</p>
+            <p class="about__edu-degree">MBA – International Business</p>
+            <p class="about__edu-date">Expected completion: 2027</p>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </section>
 
-<div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
+    <!-- Beyond Engineering -->
+    <section class="beyond" id="beyond">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Beyond Engineering</span>
+          <h2>When I'm not leading teams or writing code</h2>
+        </div>
+        <div class="beyond__grid reveal">
+          <div class="beyond__item"><span class="beyond__emoji">🎸</span><span>Playing guitar</span></div>
+          <div class="beyond__item"><span class="beyond__emoji">🇯🇵</span><span>Studying Japanese</span></div>
+          <div class="beyond__item"><span class="beyond__emoji">🎵</span><span>Producing music as BLKPRSN Beats</span></div>
+          <div class="beyond__item"><span class="beyond__emoji">🤖</span><span>Building AI personalities</span></div>
+          <div class="beyond__item"><span class="beyond__emoji">👨🏾‍👧‍👦</span><span>Being a father of three</span></div>
+          <div class="beyond__item"><span class="beyond__emoji">☕</span><span>Turning ridiculous ideas into real products</span></div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 6</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__inner reveal">
+          <h2>I love building ambitious things.</h2>
+          <p>If you're working on something interesting — let's talk.</p>
+          <div class="contact__actions">
+            <a href="https://www.linkedin.com/in/trjones1" class="btn btn--primary" target="_blank" rel="noopener">Connect on LinkedIn</a>
+            <a href="https://github.com/trjones1" class="btn btn--ghost" target="_blank" rel="noopener">View GitHub</a>
+            <a href="resume/" class="btn btn--ghost" target="_blank" rel="noopener">Download Resume</a>
           </div>
         </div>
       </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Tramel Jones. Built with curiosity and too much coffee.</p>
+      <a href="#hero" class="footer__top">Back to top ↑</a>
     </div>
-  </div>
-</div>
+  </footer>
 
-<div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 5</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <!-- jQuery Version 1.11.0 -->
-<script src=" js/jquery-1.11.0.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src=" js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src=" js/jquery.easing.min.js"></script>
-<script src=" js/classie.js"></script>
-<script src=" js/cbpAnimatedHeader.js"></script>
-
-<!-- Contact Form JavaScript -->
-<script src=" js/jqBootstrapValidation.js"></script>
-
-<script src=" js/contact_me_static.js"></script>
-
-
-<!-- Custom Theme JavaScript -->
-<script src=" js/freelancer.js"></script>
-
-
-
+  <script src="js/main.js"></script>
 </body>
-
 </html>
