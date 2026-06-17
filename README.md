@@ -2,7 +2,11 @@
 
 Personal site and interactive CV for **Tramel Jones** — Engineering Leader, Full Stack Builder, AI Creator.
 
-Live at [trjones1.github.io](https://trjones1.github.io)
+Live at [tramel.dev](https://tramel.dev) (custom domain) · also [trjones1.github.io](https://trjones1.github.io)
+
+## Custom domain
+
+See [DOMAIN-SETUP.md](DOMAIN-SETUP.md) for step-by-step instructions to register **tramel.dev** and point it at GitHub Pages.
 
 ## Sections
 

@@ -3,8 +3,8 @@
 
   const ROLES = [
     'Engineering Leader.',
-    'Full Stack Builder.',
-    'AI Creator.'
+    'AI Builder.',
+    'Product Creator.'
   ];
 
   // --- Role rotation ---
@@ -181,7 +181,7 @@
 
   // --- Project card tilt ---
   function initProjectTilt() {
-    document.querySelectorAll('.project-card').forEach((card) => {
+    document.querySelectorAll('.showcase-card').forEach((card) => {
       card.addEventListener('mousemove', (e) => {
         const rect = card.getBoundingClientRect();
         const x = (e.clientX - rect.left) / rect.width - 0.5;

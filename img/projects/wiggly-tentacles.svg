@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0a0a14"/>
+  <rect x="50" y="50" width="700" height="400" rx="20" fill="#12121f" stroke="#a78bfa" stroke-width="2"/>
+  <path d="M150 350 Q200 200 250 280 T350 220 T450 300 T550 180 T650 320" stroke="#a78bfa" stroke-width="8" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <path d="M180 360 Q230 220 280 300 T380 240 T480 320 T580 200 T680 340" stroke="#6366f1" stroke-width="6" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M120 340 Q170 180 220 260 T320 200 T420 280 T520 160 T620 300" stroke="#22d3ee" stroke-width="5" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <circle cx="250" cy="280" r="12" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="450" cy="300" r="10" fill="#6366f1" opacity="0.6"/>
+  <circle cx="550" cy="180" r="14" fill="#22d3ee" opacity="0.5"/>
+  <rect x="80" y="80" width="200" height="14" rx="7" fill="#a78bfa" opacity="0.5"/>
+  <rect x="80" y="105" width="150" height="10" rx="5" fill="#8b8b9e" opacity="0.3"/>
+  <rect x="500" y="80" width="120" height="30" rx="15" fill="#6366f1" opacity="0.2"/>
+  <text x="400" y="470" text-anchor="middle" fill="#a78bfa" font-family="system-ui" font-size="14" opacity="0.5">Wiggly Tentacles  Creative Experiment</text>
+</svg>
