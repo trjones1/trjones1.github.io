@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tramel Jones — Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1a1a2e;
+      line-height: 1.5;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 48px 40px;
+      background: #fff;
+    }
+    .print-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background: #6366f1;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .print-btn:hover { background: #4f46e5; }
+    h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; }
+    .subtitle { color: #6366f1; font-weight: 600; margin: 4px 0 8px; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 24px; }
+    .meta a { color: #6366f1; text-decoration: none; }
+    h2 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #888;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 6px;
+      margin: 28px 0 16px;
+    }
+    .job { margin-bottom: 20px; }
+    .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+    .job-title { font-weight: 700; font-size: 1.05rem; }
+    .job-company { color: #6366f1; font-weight: 500; }
+    .job-date { font-size: 0.85rem; color: #888; }
+    ul { padding-left: 18px; margin-top: 8px; }
+    li { font-size: 0.9rem; color: #444; margin-bottom: 4px; }
+    .skills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .skills span {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      background: #f0f0f5;
+      border-radius: 4px;
+      color: #555;
+    }
+    .project { margin-bottom: 16px; }
+    .project h3 { font-size: 0.95rem; font-weight: 700; }
+    .project p { font-size: 0.85rem; color: #555; }
+    @media print {
+      .print-btn { display: none; }
+      body { padding: 0; }
+      @page { margin: 0.6in; }
+    }
+  </style>
+</head>
+<body>
+  <button class="print-btn" onclick="window.print()">Save as PDF</button>
+
+  <h1>Tramel Jones</h1>
+  <p class="subtitle">Engineering Leader · Full Stack Builder · AI Creator</p>
+  <p class="meta">
+    Chicago, IL ·
+    <a href="https://github.com/trjones1">github.com/trjones1</a> ·
+    <a href="https://www.linkedin.com/in/trjones1">linkedin.com/in/trjones1</a> ·
+    <a href="https://trjones1.github.io">trjones1.github.io</a>
+  </p>
+
+  <h2>Summary</h2>
+  <p style="font-size:0.9rem;color:#444;">
+    Engineering Manager with 10+ years of experience spanning enterprise commerce, cloud architecture, software engineering, and team leadership. I lead teams delivering large-scale e-commerce ecosystems and build AI-powered products on the side.
+  </p>
+
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">Manager, Application Development</div>
+        <div class="job-company">ISC2</div>
+      </div>
+      <div class="job-date">2024 – Present</div>
+    </div>
+    <ul>
+      <li>Lead multiple engineering teams responsible for enterprise commerce platforms and customer experiences</li>
+      <li>Manage Sitecore XM Cloud + CommerceTools ecosystem</li>
+      <li>Oversee Azure Function Apps and cloud integrations</li>
+      <li>Introduced sprint reporting and executive dashboards</li>
+      <li>Drove performance improvements and cost optimization initiatives</li>
+      <li>Coordinated production releases across dev, QA and production environments</li>
+    </ul>
+    <div class="skills">
+      <span>Sitecore XM Cloud</span><span>CommerceTools</span><span>Next.js</span><span>TypeScript</span><span>Azure</span><span>.NET Core</span><span>SQL Server</span><span>Terraform</span>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">Senior Software Engineer / Technical Lead</div>
+        <div class="job-company">Andra Group</div>
+      </div>
+      <div class="job-date">Prior Role</div>
+    </div>
+    <ul>
+      <li>Modernized legacy ASP systems into React + .NET applications</li>
+      <li>Developed Azure Function Apps</li>
+      <li>Built inventory and feed management systems</li>
+      <li>Managed Google Merchant and Feedonomics integrations</li>
+      <li>Automated business reporting and operations</li>
+    </ul>
+  </div>
+
+  <h2>Featured Projects</h2>
+
+  <div class="project">
+    <h3>ChatVerse — AI Companion Platform</h3>
+    <p>Persistent memory, voice conversations, multiple AI characters, subscription billing. Next.js, Supabase, OpenAI, ElevenLabs, Stripe, Vercel.</p>
+  </div>
+  <div class="project">
+    <h3>LexiBot — Conversational AI Characters</h3>
+    <p>Complete SaaS with user accounts, voice synthesis, character switching, long-term memory, premium subscriptions. github.com/trjones1/lexi-bot</p>
+  </div>
+  <div class="project">
+    <h3>Daily Hustle Coach — Mobile AI Coach</h3>
+    <p>Daily goals, habit streaks, AI encouragement, notifications, progress tracking. Expo, React Native, Supabase, GPT-4o.</p>
+  </div>
+
+  <h2>Education</h2>
+  <div class="job">
+    <div class="job-title">MBA – International Business</div>
+    <div class="job-company">Louisiana State University Shreveport</div>
+    <div class="job-date" style="margin-top:4px;">Expected completion: 2027</div>
+  </div>
+
+  <h2>Technical Skills</h2>
+  <p style="font-size:0.85rem;color:#444;margin-bottom:8px;">
+    <strong>Languages:</strong> TypeScript, JavaScript, C#, VB.NET, SQL, Python<br>
+    <strong>Frontend:</strong> React, Next.js, Tailwind, Expo<br>
+    <strong>Backend:</strong> .NET Core, Node.js, Azure Functions, REST APIs<br>
+    <strong>Cloud:</strong> Azure, Vercel, Docker, Terraform<br>
+    <strong>AI:</strong> OpenAI, ElevenLabs, Prompt Engineering, LLM Integrations, Vector Memory Systems
+  </p>
+</body>
+</html>
